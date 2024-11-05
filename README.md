@@ -14,10 +14,10 @@ This repository offers a unique approach to visualizing the journey of job and i
 Clone this repository and set up the Conda environment:
 
 ```bash
-git clone https://github.com/yourusername/application-sankey-visualization.git
-cd application-sankey-visualization
+git clone https://github.com/willfliaw/SankeyApplications.git
+cd SankeyApplications
 conda env create -f environment.yml
-conda activate application-sankey
+conda activate sankey
 ```
 
 ## Usage
