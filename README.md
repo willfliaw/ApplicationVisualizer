@@ -11,14 +11,32 @@ This repository offers a unique approach to visualizing the journey of job and i
 
 ## Installation
 
-Clone this repository and set up the Conda environment:
+1. Clone the Repository:
 
-```bash
-git clone https://github.com/willfliaw/SankeyApplications.git
-cd SankeyApplications
-conda env create -f environment.yml
-conda activate sankey
-```
+   ```bash
+   git clone https://github.com/willfliaw/SankeyApplications.git
+   cd SankeyApplications
+   ```
+
+2. Set Up the Conda Environment:
+
+   You can create the environment from the provided `environment.yml` file:
+
+   ```bash
+   conda env create -f environment.yml
+   ```
+
+   Or, manually install the required packages:
+
+   ```bash
+   conda create -n sankey python matplotlib numpy plotly ipykernel
+   ```
+
+3. Activate the Environment:
+
+   ```bash
+   conda activate sankey
+   ```
 
 ## Usage
 
