@@ -35,9 +35,7 @@ conda env create -f environment.yml
 Alternatively, you can manually install the required packages by creating an environment and installing the dependencies:
 
 ```bash
-conda create -n appviz python=3.9
-conda activate appviz
-conda install ipykernel jupyter matplotlib numpy pandas plotly seaborn tqdm
+conda create -n appviz python ipykernel jupyter matplotlib numpy pandas plotly python-kaleido seaborn -c conda-forge
 ```
 
 ### 3. Activate the Environment
@@ -95,7 +93,22 @@ A sample dataset is provided in the `data` directory to help you get started qui
 
 Showcase the progression of applications through different stages.
 
-![Example Sankey Diagram](images/example_sankey.png)
+![Example Sankey Diagram](plots/example_sankey_diagram.png)
+
+### Bar Charts
+
+#### Status Analysis by Source
+
+Visualize the distribution of application statuses (e.g., Rejected, No Answer, Other) across different application sources.
+
+![Status Analysis by Source](plots/example_status_analysis_by_source.png)
+
+#### Source Analysis by Status
+
+Explore the contribution of each application source to different statuses in a stacked bar chart.
+
+![Source Analysis by Status](plots/example_source_analysis_by_status.png)
+
 
 ## Contributions
 

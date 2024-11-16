@@ -1,5 +1,5 @@
-images/*
+plots/*
 data/*
 
-!images/example_sankey.png
+!plots/example*
 !data/example.json
