@@ -1,0 +1,53 @@
+[
+    {
+        "company": "Company 1",
+        "position": "Data Scientist",
+        "type": "Internship",
+        "process": [
+            "Email",
+            "First-Round Interview",
+            "Offer Received"
+        ],
+        "location": "Paris",
+        "updates": [
+            "17/09",
+            "24/09",
+            "10/10"
+        ]
+    },
+    {
+        "company": "Company 2",
+        "position": "Data Scientist",
+        "type": "Internship",
+        "process": [
+            "Company Website",
+            "Initial Screening",
+            "Technical Assessment",
+            "First-Round Interview",
+            "Technical Interview",
+            "Second-Round Interview"
+        ],
+        "location": "Paris",
+        "updates": [
+            "03/10",
+            "04/10",
+            "17/10",
+            "23/10",
+            "30/10",
+            "07/10"
+        ]
+    },
+    {
+        "company": "Company 3",
+        "position": "Data",
+        "type": "Internship",
+        "process": [
+            "Company Website",
+            "No Answer"
+        ],
+        "location": "Paris",
+        "updates": [
+            "24/10"
+        ]
+    }
+]

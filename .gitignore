@@ -1,0 +1,5 @@
+images/*
+data/*
+
+!images/example_sankey.png
+!data/example.json
