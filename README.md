@@ -95,6 +95,12 @@ Showcase the progression of applications through different stages.
 
 ![Example Sankey Diagram](plots/example_sankey_diagram.png)
 
+### Gantt Chart
+
+Visualize the timeline of application updates for each position. Each line represents a specific position, with color coding indicating the associated company. The chart helps track the progression of application stages over time.
+
+![Example Gantt Chart](plots/example_gantt_chart.png)
+
 ### Bar Charts
 
 #### Status Analysis by Source
